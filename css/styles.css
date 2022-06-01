@@ -5,7 +5,7 @@
 
 body {
   font-family: "Roboto", "Raleway", sans-serif;
-  color: #212121;
+  
 }
 
 .nav-style {
@@ -16,12 +16,9 @@ body {
 }
 .header-size {
   height: 80px;
-  position: absolute;
-}
-header {
-  height: 80px;
-border: 1px solid #ECECEC;
-  
+  border: 1px solid #ececec;
+  align-items: center;
+ 
 }
 
 .link {
@@ -47,19 +44,21 @@ border: 1px solid #ECECEC;
   background: #2f303a;
   color: #ffffff;
   height: 600px;
-  margin-top: 80px;
   text-align: center;
+   padding-bottom: 94px;
 }
 
 .title-text {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36; 
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   width: 696px;
   padding-top: 200px;
   border: 0px;
+  text-align: center;
+  margin: auto;
 }
 
 .button {
@@ -71,17 +70,13 @@ border: 1px solid #ECECEC;
   font-weight: 700;
   padding: 10px 41px;
   border: 0px;
-  
 }
-.button:hover{
+.button:hover {
   cursor: pointer;
 }
- 
-.text-list{
+
+.text-list {
   box-sizing: border-box;
-  display: inline-block;
-
-
 }
 .title-text-item {
   font-weight: 700;
@@ -89,7 +84,6 @@ border: 1px solid #ECECEC;
   line-height: 1.14;
   color: #212121;
   width: 270px;
-  
 }
 
 .text {
@@ -101,7 +95,6 @@ border: 1px solid #ECECEC;
 
 .team {
   background: #f5f4fa;
-
 }
 .title-secondary {
   font-family: Roboto;
@@ -125,21 +118,19 @@ border: 1px solid #ECECEC;
   font-size: 16px;
   line-height: 1.187;
   margin-top: 10px;
- padding-bottom: 30px;
+  padding-bottom: 30px;
 }
-.footer-size {
-  
-  height: 252px;
-  background: #2f303a;
-}
+
 .footer-style {
   position: absolute;
   padding-left: 215px;
   padding-top: 60px;
-  ;}
-  .footer-style-item{
-    text-decoration: none;
-  }
+  height: 252px;
+  background: #2f303a;
+}
+.footer-style-item {
+  text-decoration: none;
+}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -147,7 +138,6 @@ border: 1px solid #ECECEC;
   font-size: 26px;
   line-height: 1.192;
   color: #2196f3;
-  
 }
 .logo-item {
   font-family: "Oleo Script", sans-serif;
@@ -182,21 +172,20 @@ address {
   color: rgba(255, 255, 255, 0.6);
 }
 .menu {
-  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
-  padding-top: 100px;
 }
-.buttons{
-  padding:6px 22px ;
+.buttons {
+  padding: 6px 22px;
   border-style: none;
   border-radius: 4px;
-  background: #F5F4FA;
-  font-family: 'Roboto';
+  background: #f5f4fa;
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  margin-left: 8px;
 }
 .buttons:focus,
 .buttons:hover {
@@ -213,9 +202,8 @@ address {
   height: 36px;
   color: #212121;
   padding-left: 24px;
+  margin: 0px;
 }
-
-
 
 .description-item {
   font-weight: 400;
@@ -225,25 +213,59 @@ address {
   height: 30px;
   color: #757575;
   padding-left: 24px;
-  margin-top: 4px;
-  margin-bottom: 20px;
+ margin: 0px;
 }
 .box {
   box-sizing: content-box;
   border-radius: 0px 0px 4px 4px;
   width: 270px;
   text-align: center;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .boxes{
-  box-sizing: border-box;
-  display: inline-block;
-  border: 1px solid #EEEEEE;
-  
-}
-.container{ 
-  width: 1200px;
+ border-left: 1px solid rgba(238, 238, 238, 1);
+ border-bottom: 1px solid rgba(238, 238, 238, 1);
+border-right:  1px solid rgba(238, 238, 238, 1);
+padding: 20px 24px;
+margin-bottom: 30px;
+
 
 }
+.boxes-team{
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+width: 270px;
+height: 368px;
+}
+.flex-boxes {
+  align-items: center;
+}
+.container {
+  width: 1200px;
+  margin: 0;
+  
+}
+.flex {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.flex-portfolio {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.style-color{
+   background: #F5F4FA;
+   padding-bottom: 94px;
+   padding-top: 94px;
+}
+.style-padding{
+    padding-bottom: 94px;
+   padding-top: 94px;
+}
+.size-item{
+  margin-top:34px;}
