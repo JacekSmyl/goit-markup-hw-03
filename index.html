@@ -18,44 +18,38 @@
     <title>Main Page</title>
   </head>
   <body>
-    <header>
-      <div class="container header-size flex">
-        <a class="link" href="https://jaceksmyl.github.io/goit-markup-hw-01/"
-          ><span class="logo">Web</span
-          ><span class="logo-header">Studio</span></a
-        >
-        <nav class="nav-style">
-          <ul class="flex">
-            <li><a class="link" href="index.html">Agencja</a></li>
-            <li>
-              <a class="link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="link">Kontakt</li>
-          </ul>
-        </nav>
-        <nav>
-          <ul class="flex">
-            <li>
+    <header class=" flex header-style ">
+      <div class=" container flex ">
+          <div class="flex">
+            <a class="link" href="https://jaceksmyl.github.io/goit-markup-hw-01/"
+              ><span class="logo">Web</span
+              ><span class="logo-header">Studio</span></a>
+            <nav class="flex">
+              <ul class="nav-style flex">
+                <li><a class="link" href="index.html">Agencja</a></li>
+                <li>
+                  <a class="link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="link">Kontakt</li>
+              </ul>
+            </nav>    
+          </div>
+           <div class="flex">
               <a class="link-item" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
-            </li>
-            <li>
               <a class="link-item" href="tel:+48111111111">+48 111 111 111</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+        </div>
     </header>
     <main>
-      <section>
+      <section class="section-background">
         <div class="title container">
           <h1 class="title-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
           <button class="button" type="button">Zamów usługe</button>
         </div>
       </section>
       <section>
-        <div class="container">
+        <div class="container ">
           <ul class="flex style-padding">
             <li class="text-list">
               <h3 class="title-text-item">LOREM IPSUM</h3>
@@ -89,7 +83,7 @@
         </div>
       </section>
       <section>
-        <div class="container">
+        <div class="container style-margin">
           <h2 class="title-secondary">Czym się zajmujemy</h2>
           <ul class="flex flex-boxes">
             <li>
@@ -119,10 +113,10 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section class=section-backkround-item>
         <div class="container style-color">
           <h2 class="title-secondary">Nasz zespół</h2>
-          <ul class="flex">
+          <ul class="flex flex-boxes">
             <li class="boxes-team box">
               <img
                 src="images/man1.jpg"
@@ -167,7 +161,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer-color" >
       <div class="footer-style container">
         <a
           class="footer-style-item"
